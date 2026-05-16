@@ -18,11 +18,11 @@ spec:
   # pod definition
   template:
     metadata:
-      labels:
+      labels: 
         purpose: blue-green
         project: roboshop
         color: green
     spec:
       containers:
       - name: nginx
-        image: nginx:mainline-alpine3.23-perl
+        image: nginx:mainline-alpine3.23-perl 
