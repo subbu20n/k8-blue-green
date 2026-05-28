@@ -5,7 +5,7 @@ metadata:
   # these are replica set labels
   labels:
     purpose: blue-green
-    project: roboshop
+    project: roboshop  
     color: blue
 spec:
   replicas: 4 
@@ -13,7 +13,7 @@ spec:
     # these labels are used to select pods
     matchLabels:
       purpose: blue-green
-      project: roboshop
+      project: roboshop  
       color: blue
   # pod definition
   template:
@@ -25,4 +25,4 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: nginx:latest 
