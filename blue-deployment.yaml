@@ -22,7 +22,7 @@ spec:
         purpose: blue-green 
         project: roboshop
         color: blue
-    spec:
+    spec:  
       containers:
       - name: nginx
         image: nginx:latest 
