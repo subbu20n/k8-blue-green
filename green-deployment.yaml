@@ -13,7 +13,7 @@ spec:
     # these labels are used to select pods
     matchLabels:
       purpose: blue-green
-      project: roboshop
+      project: roboshop   
       color: green
   # pod definition
   template:
