@@ -6,7 +6,7 @@ metadata:
   labels:
     purpose: blue-green
     project: roboshop  
-    color: blue
+    color: blue    
 spec:
   replicas: 4 
   selector:
