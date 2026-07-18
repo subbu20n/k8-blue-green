@@ -15,7 +15,7 @@ spec:
       purpose: blue-green
       project: roboshop  
       color: blue
-  # pod definition
+  # pod definition   
   template:           
     metadata:     
       labels:  
