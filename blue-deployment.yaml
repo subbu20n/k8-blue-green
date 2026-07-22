@@ -8,7 +8,7 @@ metadata:
     project: roboshop  
     color: blue    
 spec:
-  replicas: 4 
+  replicas: 4    
   selector:
     # these labels are used to select pods
     matchLabels:
